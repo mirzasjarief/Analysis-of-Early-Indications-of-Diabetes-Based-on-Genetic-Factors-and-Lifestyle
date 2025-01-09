@@ -43,70 +43,86 @@ Demographic information about patients, including age, gender, BMI, blood pressu
 1. pandas
    
 Functionality: Data manipulation and analysis.
+
 Methods:
-Reading/writing data (e.g., pd.read_csv, pd.to_csv).
-Data cleaning and preprocessing (e.g., handling missing values, filtering, merging).
-Data aggregation and transformation (e.g., groupby, pivot tables).
+- Reading/writing data (e.g., pd.read_csv, pd.to_csv).
+- Data cleaning and preprocessing (e.g., handling missing values, filtering, merging).
+- Data aggregation and transformation (e.g., groupby, pivot tables).
 
 2. numpy
    
 Functionality: Numerical operations on arrays.
+
 Methods:
-Handling multi-dimensional arrays (np.array, np.reshape).
-Mathematical operations (e.g., np.mean, np.sum, np.std).
-Random number generation (np.random).
+
+- Handling multi-dimensional arrays (np.array, np.reshape).
+- Mathematical operations (e.g., np.mean, np.sum, np.std).
+- Random number generation (np.random).
 
 3. matplotlib.pyplot
    
 Functionality: Data visualization.
+
 Methods:
-Creating plots (e.g., plt.plot, plt.bar, plt.scatter).
-Customizing plots (e.g., plt.title, plt.xlabel, plt.ylabel).
-Showing and saving visualizations (plt.show, plt.savefig).
+
+- Creating plots (e.g., plt.plot, plt.bar, plt.scatter).
+- Customizing plots (e.g., plt.title, plt.xlabel, plt.ylabel).
+- Showing and saving visualizations (plt.show, plt.savefig).
 
 4. seaborn
    
 Functionality: Advanced and aesthetically pleasing statistical data visualization.
+
 Methods:
-Creating statistical plots (e.g., sns.barplot, sns.heatmap, sns.boxplot).
-Built-in support for pandas DataFrames.
-Enhancing matplotlib visualizations with themes (sns.set_style, sns.color_palette).
+
+- Creating statistical plots (e.g., sns.barplot, sns.heatmap, sns.boxplot).
+- Built-in support for pandas DataFrames.
+- Enhancing matplotlib visualizations with themes (sns.set_style, sns.color_palette).
 
 5. scipy.stats
    
 Functionality: Statistical analysis.
+
 Methods:
-Hypothesis testing (e.g., stats.ttest_ind, stats.chisquare).
-Correlation and regression (e.g., stats.pearsonr, stats.spearmanr).
-Probability distributions (stats.norm, stats.binom).
+
+- Hypothesis testing (e.g., stats.ttest_ind, stats.chisquare).
+- Correlation and regression (e.g., stats.pearsonr, stats.spearmanr).
+- Probability distributions (stats.norm, stats.binom).
 
 6. statsmodels.api
    
 Functionality: Statistical models and hypothesis testing.
+
 Methods:
-Regression analysis (e.g., sm.OLS, sm.Logit).
-Time series analysis (sm.tsa).
-Diagnostic tools for statistical models (sm.stats).
+- Regression analysis (e.g., sm.OLS, sm.Logit).
+- Time series analysis (sm.tsa).
+- Diagnostic tools for statistical models (sm.stats).
 
 7. statsmodels.tsa.stattools.adfuller
    
 Functionality: Augmented Dickey-Fuller test for stationarity in time series.
+
 Methods:
-adfuller: Checks if a time series is stationary by testing for a unit root.
+
+- adfuller: Checks if a time series is stationary by testing for a unit root.
 
 8. warnings
     
 Functionality: Suppresses warnings in Python scripts.
+
 Methods:
-warnings.filterwarnings('ignore'): Disables specific or all warnings during execution.
+
+- warnings.filterwarnings('ignore'): Disables specific or all warnings during execution.
 
 9. sklearn.preprocessing.LabelEncoder
     
 Functionality: Converts categorical labels into numerical format.
+
 Methods:
-fit: Learns the mapping of labels to integers.
-transform: Converts labels into integer format.
-inverse_transform: Converts integers back into labels.
+
+- fit: Learns the mapping of labels to integers.
+- transform: Converts labels into integer format.
+- inverse_transform: Converts integers back into labels.
 
 
 ## Conclusion
