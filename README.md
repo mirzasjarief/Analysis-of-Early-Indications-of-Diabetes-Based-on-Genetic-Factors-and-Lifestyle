@@ -16,7 +16,6 @@ To simplify the analysis and address the issue effectively, we need to understan
 
 ## Basic Data Information
 
-
 This dataset consists of 100+ health records of patients collected from various sources, including medical records, surveys, and interviews. The data has been cleaned and processed to ensure accuracy and completeness.
 
 #### Context
@@ -27,17 +26,17 @@ Demographic information about patients, including age, gender, BMI, blood pressu
 
 #### Columns
 
-- 1. Age: Patient's age, in years.
-- 2. Gender: Patient's gender, male or female.
-- 3. BMI: Body mass index, in kg/m².
-- 4. Blood Pressure: Patient's blood pressure status, categorized as low, normal, or high.
-- 5. FBS: Fasting Blood Sugar (blood sample taken after an 8-hour fast), in mg/dL.
-- 6. HbA1c: Glycated hemoglobin, reflecting average blood sugar levels over the past 2–3 months.
-- 7. Family History of Diabetes: Family history of diabetes.
-- 8. Smoking: Whether the patient is a smoker or non-smoker.
-- 9. Diet: Patient's dietary habits, categorized as healthy or poor.
-- 10. Exercise: Whether the patient exercises regularly or not.
-- 11. Diagnosis: Whether the patient is positive for diabetes or not.
+-  Age: Patient's age, in years.
+-  Gender: Patient's gender, male or female.
+-  BMI: Body mass index, in kg/m².
+-  Blood Pressure: Patient's blood pressure status, categorized as low, normal, or high.
+-  FBS: Fasting Blood Sugar (blood sample taken after an 8-hour fast), in mg/dL.
+-  HbA1c: Glycated hemoglobin, reflecting average blood sugar levels over the past 2–3 months.
+-  Family History of Diabetes: Family history of diabetes.
+-  Smoking: Whether the patient is a smoker or non-smoker.
+-  Diet: Patient's dietary habits, categorized as healthy or poor.
+-  Exercise: Whether the patient exercises regularly or not.
+-  Diagnosis: Whether the patient is positive for diabetes or not.
  
 ## Python libraries and their respective functionalities and methodologies
  
