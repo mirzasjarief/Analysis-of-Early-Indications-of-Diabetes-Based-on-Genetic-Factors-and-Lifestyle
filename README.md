@@ -37,8 +37,24 @@ Demographic information about patients, including age, gender, BMI, blood pressu
 -  Diet: Patient's dietary habits, categorized as healthy or poor.
 -  Exercise: Whether the patient exercises regularly or not.
 -  Diagnosis: Whether the patient is positive for diabetes or not.
+
+  ## Structure and Methodologies
+1. Data Cleaning
+- Cleaning data begins with selecting the necessary tables, checking for duplicates, and handling missing values.
+2. Data Transformation
+- Performing data manipulation, such as merging tables and applying hot labeling to convert ordinal data into numerical sequences to facilitate correlation testing.
+3. Descriptive Statistics
+- Checking the normality of data distribution and identifying outliers:
+(Visualization Methods: Histogram & Boxplot)
+- Conducting correlation tests between tables to find relationships between two datasets:
+a. Spearman Method: For non-normally distributed data
+b. Pearson Method: For relatively normally distributed data
+(Visualization Methods: Scatter Plot & Heatmap)
+4. Inferential Statistics
+- Performing hypothesis testing to determine whether a significant relationship exists between datasets:
+a. Two-Sample Test
  
-## Python Libraries and Their Respective Functionalities and Methodologies
+## Python Libraries and Their Respective Functionalities 
  
 1. pandas
    
